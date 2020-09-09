@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: cursive;
+}
+.header {
+    background-color:#FFF;
+    color:rgb(15, 102, 15);
+    height:90px;
+    text-align:center;
+    text-transform:uppercase;
+}
+main {
+    height:calc(100vh - 90px);
+    background-image:url('../imagens/palmeiras.jpg');
+    color:#FFF;
+    background-size:cover;
+    background-position:top;
+
+}
+.fundo_questionario {
+    height:400px;
+    width:600px;
+    margin-top:5px;
+    margin-left:400px;
+    background-color: rgba(29, 65, 29, 0.651);
+    border-radius:10px;
+}
+.questionario {
+    margin:auto;
+    text-align:center;
+    font-size:large;
+    margin-bottom:10px;
+    margin-left:15px;
+    padding-top:10px;
+}
+label {
+    display:flex;
+    margin-bottom:15px;
+    padding-top:10px;
+}
+.nome {
+    padding:2px;
+    width:200px;
+    margin-left:15px;
+}
+.idade {
+    padding: 2px;
+    width: 200px;
+    margin-left:15px;
+}
+.pesquisa {
+    margin-left:15px;
+}
+a {
+    color:#FFF;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin-left:130px;
+}
+a:hover {
+    color:rgb(136, 255, 0);
+}
